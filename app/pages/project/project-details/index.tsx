@@ -22,8 +22,8 @@ export const ProjectDetails = ({ project }: PrjectDetailsProps) => {
       <motion.div
         className="absolute inset-0 z-[-1]"
         style={{
-          background: `url(${project.pageThumbnail.url}) no-repeat center/cover, url(${project.pageThumbnail.url}) no-repeat center/cover`,
-          opacity: '0.1',
+          background: `url("/images/image-hero-bruno2.png") no-repeat center/cover, url(${project.pageThumbnail.url}) no-repeat center/cover`,
+          opacity: '0.4',
         }}
         initial={{ opacity: 0, scale: 1.3 }}
         animate={{ opacity: 1, scale: 1 }}

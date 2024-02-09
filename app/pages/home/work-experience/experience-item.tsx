@@ -46,10 +46,10 @@ export const ExperienceItem = ({ experience }: ExperienceItemProps) => {
       <div className="flex items-center flex-col gap-4">
         <div className="rounded-full border border-gray-500 p-0.5">
           <Image
-            src={experience.companyLogo.url}
+            src={experience?.companyLogo?.url}
             width={40}
             height={40}
-            alt={`Logo da empresa ${experience.companyName}`}
+            alt={`Logo da empresa ${experience?.companyName}`}
             className="rounded-full"
           />
         </div>

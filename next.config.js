@@ -4,7 +4,7 @@ const nextConfig = {
     appDir: true,
   },
   images: {
-    domains: ['lh3.googleusercontent.com', 'media.graphassets.com'],
+    domains: ['lh3.googleusercontent.com', 'media.graphassets.com', 'sa-east-1.graphassets.com'],
   },
 }
 
